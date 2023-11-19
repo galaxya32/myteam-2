@@ -1,0 +1,143 @@
+// NORMAL BUTTON STYLE START
+
+// ALL BUTTON STYLES
+$border-size:2px;
+$border-style:solid;
+$border-normal-bg-color:$police-blue;
+$border-normal-color:$white-color;
+$border-left-padding-size:33px;
+$border-right-padding-size:33px;
+$border-top-padding-size:11px;
+$border-bottom-padding-size:11px;
+$all-button-transition:all .3s ease;
+
+
+
+.button {
+    padding: $border-top-padding-size $border-right-padding-size $border-bottom-padding-size $border-left-padding-size;
+    border: $border-size $border-style $border-normal-color;
+    transition: $all-button-transition;
+}
+
+// NORMAL BUTTON STYLE END
+
+
+// HOVER BUTTON STYLES
+$hover-button-color:$police-color;
+$hover-button-bg-color:$white-color;
+
+.button:hover {
+    color: $hover-button-color;
+    background-color: $hover-button-bg-color;
+}
+
+// ACTIVE/DISABLE BUTTON STYLES
+$disable-button-style:.3;
+
+.button:active {
+    opacity: $disable-button-style;
+}
+
+
+// DARK MODE BUTTON STYLE
+$dark-button-border-color:$dark-green;
+$dark-button-bg-color:$white-color;
+$dark-button-color:$dark-green;
+
+.button.dark-mode {
+    border: $border-size $border-style $dark-button-border-color;
+    color: $dark-button-color;
+    background-color: $dark-button-bg-color;
+}
+
+// DARK MODE BTN HOVER MODE
+$dark-btn-hover-color:$white-color;
+$dark-btn-hover-bg-color:$dark-green;
+
+
+.button.dark-mode:hover {
+    color: $dark-btn-hover-color;
+    background-color: $dark-btn-hover-bg-color;
+}
+
+
+// SECONDARY BTN STYLE 
+$secondary-btn-border-color:$white-color;
+$secondary-btn-bg-color:$white-color;
+$secondary-btn-color:$dark-green;
+
+.button.secondary {
+    border: $border-size $border-style $secondary-btn-border-color;
+    color: $secondary-btn-color;
+    background-color: $secondary-btn-bg-color;
+}
+
+// SECONDARY BTN HOVER MODE
+$secondary-btn-hover-bg-color:$rapture-blue;
+$secondary-btn-hover-border-color:$rapture-blue;
+
+.button.secondary:hover {
+    border: $border-size $border-style $secondary-btn-hover-border-color;
+    background-color: $secondary-btn-bg-color;
+}
+
+// ACTIVE/DISABLE
+.button.secondary:active {
+    opacity: $disable-button-style;
+}
+
+
+
+button{
+    width: 153px;
+    height: 48px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #014E56;
+    border: 3px solid;
+    border-color: #fff;
+    font-size: 18px;
+    transition: color .3s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #014E56;
+    background-color:#fff;
+    transition: color .3s ease-in-out;
+}
+
+
+.btn{
+    background-color: #F67E7E;
+    border: 3px solid;
+    color: #012F34;
+    border-color: #012F34;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+
+
+
+.submit-btn{
+    background-color: #fff;
+    color: #014E56;
+    font-size: 18px;
+    line-height: 28px;
+    width: 123px;
+    height: 48px;
+    margin-top: 30px;
+    transition: color .3s ease-in-out;
+    // margin-top: 50px;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+    color: #014E56;
+    background-color:#F67E7E;
+    transition: color .3s ease-in-out;
+}
+
+
